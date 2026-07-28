@@ -14,12 +14,12 @@ Assess read quality, trimming strategies, alignment performance, and library pro
 
 ### 3. Apply statistical models to test biologically meaningful hypotheses 
 
-Use differential expression analysis, model design, likelihood ratio tests, and dimensionality reduction to identify and interpret gene expression differences across tissues, species, and phenotypes.
+Complete differential expression analysis to identify and interpret gene expression differences across tissues, species, and phenotypes.
 
 ### 4. Integrate computational results with biological interpretation
 
-Synthesize expression patterns, clustering results, and functional enrichment analyses to draw biologically grounded conclusions about electric organ and skeletal muscle gene expression.
+Synthesize expression patterns, clustering results, and functional enrichment analyses to draw biologically grounded conclusions about similarities and differences between electric organ and skeletal muscle gene expression.
 
-### 5. Communicate RNA-seq findings through professional figures and reports
+### 5. Communicate RNA-seq findings through professional figures and a report
 
 Create publication‑quality visualizations and write a cohesive scientific report that clearly explains methods, presents results, and interprets findings for a research audience.
