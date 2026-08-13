@@ -228,7 +228,7 @@ DE steps]
 
 - Isolate a gene list for the cluster of interest
 - Convert Campy gene names to D. rerio gene names using the orthology
-  table derived from our ICA2 Genespace assignment
+  table derived from our ICA2 Genespace assignment (Danio_Campylomormyrus_1to1_orthologs_table.csv)
   - Note: degPatterns transforms the Campy gene names, make sure to
     change them back so they match with the orthology table
 - Complete a gene ontology analysis on the cluster of interest using the
