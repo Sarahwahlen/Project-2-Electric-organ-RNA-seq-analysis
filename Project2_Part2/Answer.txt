@@ -1,0 +1,46 @@
+What proportion of reads (both R1 and R2) were trimmed?
+
+SRR25630406_2_NT.fastq |  wc -l 
+170789416
+SRR25630406_rv_paired.fq.gz | wc -l
+167716700
+
+SRR25630406_forward_unpaired.fq.gz | wc -l
+1383668
+SRR25630406_rv_unpaired.fq.gz | wc -l
+1175556
+
+## R1
+(1-((167716700+1383668)/170789416))*100 
+0.9889653%
+
+## R2
+(1-((167716700+1175556)/170789416))*100 
+1.110818%
+
+------ 
+
+SRR25630407_2_NT.fastq |  wc -l 
+153683904
+SRR25630407_rv_paired.fq.gz | wc -l
+150094180
+
+SRR25630407_fw_unpaired.fq.gz | wc -l
+1526644
+SRR25630407_rv_unpaired.fq.gz | wc -l
+1213932
+
+##R1
+(1-((150094180+1526644)/153683904))*100
+1.342418%
+
+## R2
+(1-((150094180+1213932)/153683904))*100
+1.545895%
+
+
+Comment on whether you expect R1s and R2s to be adapter-trimmed at different rates and why.
+
+R1 and R2 can differ in adapter contamination because of differences in barcodes,
+UMIs, or quality, for a sanity check you can reference FastQC to see whether it has
+increased adapter contamination lines up with the trimmed rates you calculated.
