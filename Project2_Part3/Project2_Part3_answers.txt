@@ -1,0 +1,43 @@
+Using the mapping function from Bi621 PS8 
+
+Cco_com102_EO_adult had 61,020,552 mapped reads and 14,026,538 unmapped reads. 
+With an overall 81.30968% mapped reads  (61020552/(61020552+14026538)*100)
+81.30968
+
+Cco_com103_E0_adult had 71,359,089 mapped reads and 12,499,261 unmapped reads.
+With an overall 85.09479% mapped reads 71359089/(71359089+12499261)*100
+
+
+
+Demonstrate convincingly whether or not the data are from "strand-specific" 
+RNA-Seq libraries **and** which `stranded=` parameter should you use for 
+counting your reads for a future differential gene expression analyses.
+Include any commands/scripts used. Briefly describe your evidence, using quantitative 
+statements
+
+To find out the strandedness the library was prepared with, i.e. using the sense or anti sense strand, 
+exploring the documentation for what kit was used and then the documentation for that specific kit 
+is an avenue worth exploring. However, data exploration also allows for an interpretion of strandedness. 
+After alinging the reads with STAR, the sam files were cross refrenced against the orgional gff file 
+to reestablish the allignned location and sum a total number of reads to each location. Taking that output 
+file and summing the number of alinged and mapped reads for forward and reverse reads for each sample 
+and comparing the percent reads on the forward and reverse strands. 
+For both samples, using the reverse flag for HTSeq gave me ~40% mapped where the stranded gave me ~2% mapped. 
+
+
+
+----
+- Cco_com102_EO_adult_1_stranded.tsv 
+(976183/37523545)
+ 2.601521% mapped
+
+- Cco_com102_EO_adult_1_reverse.tsv 
+(16635943/37523545)
+44.33468% mapped
+
+- Cco_com103_EO_adult_1_stranded.tsv 
+(1062630/41929175)
+2.534345% mapped 
+
+-  Cco_com103_EO_adult_1_reverse.tsv 
+44.31584% mapped
