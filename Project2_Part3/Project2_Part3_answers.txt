@@ -1,3 +1,17 @@
+Paths to Scripts used: 
+gff to gtf 
+/projects/bgmp/swahlen/bioinfo/Bi623/Project_2/Project2_QAA/Project-2-Electric-organ-RNA-seq-analysis/Project2_Part3/gff.to.gtf.sh
+building STAR db 
+/projects/bgmp/swahlen/bioinfo/Bi623/Project_2/Project2_QAA/Project-2-Electric-organ-RNA-seq-analysis/Project2_Part3/BuildSTARdb.sh
+align data bases 
+/projects/bgmp/swahlen/bioinfo/Bi623/Project_2/Project2_QAA/Project-2-Electric-organ-RNA-seq-analysis/Project2_Part3/Align-starDB.sh
+wrapper of python script for finding mapped reads vs unmapped 
+/projects/bgmp/swahlen/bioinfo/Bi623/Project_2/Project2_QAA/Project-2-Electric-organ-RNA-seq-analysis/Project2_Part3/wrap.map.sh
+HTSeq script
+/projects/bgmp/swahlen/bioinfo/Bi623/Project_2/Project2_QAA/Project-2-Electric-organ-RNA-seq-analysis/Project2_Part3/wrap.HTSeqcount.sh
+
+
+
 Using the mapping function from Bi621 PS8 
 
 Cco_com102_EO_adult had 61,020,552 mapped reads and 14,026,538 unmapped reads. 
